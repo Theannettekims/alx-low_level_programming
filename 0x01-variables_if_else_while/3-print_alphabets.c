@@ -7,17 +7,14 @@
  * Return: Always 0 (Success)
  */
 int main(void)
-
 {
-char lower_case;
-char upper_case;
+	char low;
 
-for (lower_case = 'a'; lower_case <= 'z'; lower_case++)
-{
-putchar(lower_case);
-}
+	for (low = 'a'; low <= 'z'; low++)
+		putchar(low);
+	for (low = 'A'; low <= 'Z'; low++)
+		putchar(low);
+		putchar('\n');
 
-for (upper_case = 'A'; upper_case <= 'Z'; upper_case++)
-{
-putchar(upper_case;
+	return (0);
 }
