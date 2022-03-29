@@ -1,4 +1,4 @@
-#include "0-memset.c"
+#include "main.h"
 /**
  * _memset - Entry point
  * @s: pointed destination
