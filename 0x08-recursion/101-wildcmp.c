@@ -1,4 +1,3 @@
-#include <stdio.h>
 #include "main.h"
 /**
  * wildcmp - Entry Point
@@ -8,6 +7,7 @@
  */
 
 int wildcmp(char *s1, char *s2)
+
 {
 return (0);
 }
