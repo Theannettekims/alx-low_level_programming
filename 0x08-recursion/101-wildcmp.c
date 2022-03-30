@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 /**
  * wildcmp - Entry Point
  * @s1: input
