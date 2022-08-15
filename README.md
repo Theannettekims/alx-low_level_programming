@@ -1,2 +1,1 @@
-# alx-low_level_programming
- welcome to C
+this is readme file for more singly linked lists
