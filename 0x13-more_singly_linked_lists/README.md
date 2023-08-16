@@ -1,1 +1,0 @@
-this is my readme file for more singly linked lists
