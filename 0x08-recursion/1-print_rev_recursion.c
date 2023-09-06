@@ -18,3 +18,7 @@ void _print_rev_recursion(char *s)
 		putchar(*s);
 	}
 }
+int main()
+{
+	_print_rev_recursion("\nTalk is cheap.Show me the code.");
+}
