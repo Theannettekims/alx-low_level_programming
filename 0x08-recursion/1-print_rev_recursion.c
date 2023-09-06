@@ -3,7 +3,7 @@
 #include "main.h"
 
 /**
- * _print_rev_recursion - entry point;
+ * _print_rev_recursion - function like puts;
  * @s: input
  * Return 0 (success)
  */
