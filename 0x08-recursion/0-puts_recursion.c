@@ -17,9 +17,4 @@ void _puts_recursion(char *s){
 		_puts_recursion(s + 1);
 	}
 }
-//int main(){
-//	char str[]="Talk is cheap.Show me the code";
-//	_puts_recursion(str);
-
-//	return 0;
 
