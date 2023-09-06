@@ -7,10 +7,6 @@
  * @s: input
  * Return 0 (success)
  */
-
-const char *errorMessage = "this is the error message.\n";
-write(2,errorMessage,strlen(errorMessage));
-
 void _print_rev_recursion(char *s)
 {
 	if (*s == '\0')
