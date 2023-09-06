@@ -14,13 +14,7 @@ void _print_rev_recursion(char *s)
 	else
 	{
 		return;
-		putchar('\n');
-		putchar(*s);
+		_putchar('\n');
+		_putchar(*s);
 	}
-}
-int main()
-{
-	_print_rev_recursion("\nTalk is cheap.Show me the code.");
-
-	return 0;
 }
