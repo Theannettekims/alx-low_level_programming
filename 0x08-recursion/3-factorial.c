@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "main.h>
+#include "main.h"
 
 /**
  * factorial - youtube c tutorial: 5 - (5 - 1)
