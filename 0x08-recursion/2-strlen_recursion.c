@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
- * _strlen_recursion - name of variable;
+ * _strlen_recursion - note: no _putchar in local test;
  * @s: input
  * Return 0 (success)
  */
@@ -13,6 +13,6 @@ int _strlen_recursion(char *s)
 		return (0);
 	else
 	{
-		return (1 + ( _strlen_recursion(s + 1)));
+		return (1 + _strlen_recursion(s + 1));
 	}
 }
