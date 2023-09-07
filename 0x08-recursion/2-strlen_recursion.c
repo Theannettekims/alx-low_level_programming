@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * _strlen_recursion - note: no _putchar in local test
+ * _strlen_recursion - returns length of string;
  * @s: input
- * Return 0 (success)
+ * @return:length of string 0 (success)
  */
 
 int _strlen_recursion(char *s)
