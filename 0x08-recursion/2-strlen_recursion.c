@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
- * _strlen_recursion - note: no _putchar in local test;
+ * _strlen_recursion - returns integer;
  * @s: input
  * Return 0 (success)
  */
