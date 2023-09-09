@@ -1,1 +1,1 @@
-ar c libmy.a
+ar -t libmy.a
