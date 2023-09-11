@@ -5,7 +5,7 @@
  * main - prints name + \n
  * @argv: array pointing to arguments
  * @argc: number of arguments typed
- * Return: 0 success
+ * Return: 0
  */
 
 int main(int argc, char *argv[])
