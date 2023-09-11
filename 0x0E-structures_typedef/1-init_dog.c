@@ -1,14 +1,20 @@
-#include <stdio.h>
+#include <stdlib.h>
 
 /**
- * struct dog *d - structure of type struct dog with pointer variable
- *@i: input
- *
+ * init_dog - function that initializes a variable of type struct dog
+ * @d: name of struct dog
+ * @name: name of dog
+ * @age: age of dog
+ * @owner: owner of dog
  * Return: 0
  */
 
-void init_dog(struct dog *d, char *name, float age, char *owner); int i;
-struct dog *d
+void init_dog(struct dog *d, char *name, float age, char *owner)
 {
-	for(i = 0;i < *d;i++)
-};
+	if(d != NULL)
+	{
+		d->name = name;
+		d->age = age;
+		d->owner = owner;
+	}
+}
