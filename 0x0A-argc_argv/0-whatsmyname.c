@@ -3,15 +3,15 @@
 
 /**
  * main - prints name + \n
- * @argv: pointer to arguments
- * @argc: command line arguments
+ * @argv: array pointing to arguments
+ * @argc: number of arguments typed
  * Return: 0 success
  */
 
 int main(int argc, char *argv[])
 {
 	argc = 0;
-	printf("%s\n",argv[0]);
+	printf("%s\n",argv[argc]);
 
 	return (0);
 }
