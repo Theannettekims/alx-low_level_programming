@@ -2,13 +2,16 @@
 #include "main.h"
 
 /**
- * main - entry point
- * @argv - command line argument
- * @argc - command line argument
+ * main - prints name + \n
+ * @argv - pointer to arguments
+ * @argc - command line arguments
  * return: 0 success
  */
 
 int main(int argc, char *argv[])
 {
-	printf("my name is: %s",argv[0]);
+	argc = 0;
+	printf("%s\n",argv[0]);
+
+	return (0);
 }
