@@ -8,6 +8,7 @@
  * Return: 0
  */
 
+struct dog;
 struct dog
 {
 	char *name;
