@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - entry point
+ * struct dog - structure type
  * @name: structure element of character type
  * @age: structure element of float type
  * @owner: structure element of character type
