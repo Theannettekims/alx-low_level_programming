@@ -1,17 +1,19 @@
 #include <stdio.h>
 
 /**
- * struct dog - structure type with elements
+ * main - entry point
  * @name: structure element of character type
  * @age: structure element of float type
  * @owner: structure element of character type
  * Return: 0
  */
 
-struct dog;
-struct dog
+int main(void)
 {
-	char *name;
-	float age;
-	char *owner;
-};
+	struct dog
+	{
+		char *name;
+		float age;
+		char *owner;
+	};
+}
