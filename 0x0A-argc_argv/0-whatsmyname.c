@@ -3,9 +3,9 @@
 
 /**
  * main - prints name + \n
- * @argv - pointer to arguments
- * @argc - command line arguments
- * return: 0 success
+ * @argv: pointer to arguments
+ * @argc: command line arguments
+ * Return: 0 success
  */
 
 int main(int argc, char *argv[])
